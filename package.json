@@ -1,0 +1,22 @@
+{
+  "name": "utgen",
+  "version": "1.0.0",
+  "description": "Project to generate unit testing for any framework",
+  "main": "index.js",
+  "scripts": {
+    "generateUnitTests": "node src/generate.js"
+  },
+  "keywords": [
+    "wizeline",
+    "openai",
+    "unit",
+    "tests"
+  ],
+  "author": "Carlos Veloz (carlos.veloz@wizeline.com)",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "openai": "^4.0.0",
+    "ora": "^5.4.1"
+  }
+}
