@@ -11,7 +11,6 @@ Install dependencies by running
 ```
 npm install
 ```
-## Installation
 In order for you to use this project you will need to create an account on [OpenAI](https://openai.com/) then refer to [Authentication](https://platform.openai.com/docs/api-reference/authentication) to understand how to generate your APIKey which you will have to place in a .env file with the following name.
 ```
 OPENAI_API_KEY="Your_OpenAI_APIKey"
